@@ -8,8 +8,8 @@ This project is intended to show people a VERY basic project using the following
 2. Vivado HLS (2019.1): Makes an AXI Master interface that reads an "input array" of float values starting from 
 one DDR memory location (the processor side), adds a float value to this, and then writes the result 
 "output array" of floats to a different location in DDR memory (back to the processor).  
-The "value to add", the "input array" memory location, and the "output array" memory location are all
-specified by the AXI Lite bus.
+The "value to add", the "input array" memory location, and the "output array" memory location, and the "size"
+of the arrays to read are all specified as parameters from the AXI Lite bus.
 
 3. Vivado 2019: Uses the above accelerator function in a block diagram with an HP port (HP0) of the Zynq processor.
 
