@@ -11,6 +11,8 @@ one DDR memory location (the processor side), adds a float value to this, and th
 The "value to add", the "input array" memory location, and the "output array" memory location, and the "size"
 of the "input array" and "output array" are all specified as parameters from the AXI Lite bus.
 
+/////////////SEE THE SISTER REPOSITORY FOR THE ACCOMPANYING SDK PROJECT CALLED "Vivado_AXI_MASTER_SDK"
+
 3. Vivado 2019: Uses the above accelerator function in a block diagram with an HP port (HP0) of the Zynq processor.
 
 4. Vivado 2019 SDK: Shows a simple baremetal application in C of how to use this accelerator block.
