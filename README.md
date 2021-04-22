@@ -5,7 +5,7 @@ This project is intended to show people a VERY basic project using the following
 
 1. An Arty Z7 dev board from Digilent (using the Z7020 processor).
 
-2. Vivado HLS (2019.1): Makes an AXI Master interface that reads an "input array" of float values starting from 
+2. Vivado HLS (2019.1) and the file "setMem_rmt.cpp": Makes an AXI Master interface that reads an "input array" of float values starting from 
 one DDR memory location (the processor side), adds a float value to this, and then writes the result 
 "output array" of floats to a different location in DDR memory (back to the processor).  
 The "value to add", the "input array" memory location, and the "output array" memory location, and the "size"
